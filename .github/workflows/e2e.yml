@@ -25,7 +25,7 @@ env:
   REGISTRY: ghcr.io
   ORGANIZATION: ${{ github.repository }}
   MODEL: ${{ github.event.inputs.model || 'Qwen/Qwen3-0.6B' }}
-  MODEL_DIR: modctl-test-model
+  MODEL_DIR: modctl-test-model-1
 
 jobs:
   build-modctl:
